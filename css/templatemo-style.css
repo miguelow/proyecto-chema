@@ -512,12 +512,6 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   margin-bottom: 0;
 }
 
-#search-icon {
-  font-size: 1em;
-  float: left;
-  margin-right: 3px;
-}
-
 #search-overlay {
   display: none;
   position: fixed;
