@@ -317,9 +317,9 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   text-transform: uppercase;
   font-weight: 700;
 }
-.top-header .logo h1 em {
+ h1 em {
   font-style: normal;
-  color: #f69730;
+  color: #469cff;
 }
 .top-header .logo span {
   margin-left: 10px;
@@ -344,7 +344,7 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   }
 }
 .top-header a {
-  color: #2c2c2c;
+  color: #125501;
 }
 
 .main-header {
@@ -357,12 +357,16 @@ a.btn-left:hover, .top-header .social-top ul li a:hover, .main-header .menu-wrap
   .main-header {
     padding: 20px;
     min-height: 76px;
+    display: flex;
+    justify-content: end;
   }
 }
 @media screen and (max-width: 768px) {
   .main-header {
     padding: 20px;
     min-height: 76px;
+    display: flex;
+    justify-content: end;
   }
 }
 .main-header .main-header-left a {
